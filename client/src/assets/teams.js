@@ -159,4 +159,19 @@ export const teams = [
     image:
       "https://content.sportslogos.net/logos/6/219/full/5671_washington_wizards-primary-2016.png",
   },
+  {
+    name: "Philadelphia Warriors",
+    image:
+      "https://content.sportslogos.net/logos/6/235/full/3152_golden_state_warriors-primary-2020.png",
+  },
+  {
+    name: "Cincinnati Royals",
+    image:
+      "https://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png",
+  },
+  {
+    name: "Buffalo Braves",
+    image:
+      "https://content.sportslogos.net/logos/6/236/full/los_angeles_clippers_logo_primary_2019_sportslogosnet-3776.png",
+  },
 ];

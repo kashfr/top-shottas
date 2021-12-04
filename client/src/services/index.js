@@ -10,10 +10,10 @@ export const config = {
   },
 };
 
-export const getLogos = async () => {
-  const response = await axios.get(BASE_URL_PLAYERS, config);
-  return response.data.records.players.teamLogo;
-};
+// export const getLogos = async () => {
+//   const response = await axios.get(BASE_URL_PLAYERS, config);
+//   return response.data.records.players.teamLogo;
+// };
 
 export const getPlayers = async () => {
   const response = await axios.get(BASE_URL_PLAYERS, config);

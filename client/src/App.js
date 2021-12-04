@@ -19,6 +19,8 @@ function App() {
   const [players, setPlayers] = useState([]);
   const [comments, setComments] = useState([]);
   const [logo, setLogo] = useState([]);
+  const [toggle, setToggle] = useState(false);
+  // const teams = [];
 
   useEffect(() => {
     const getAllPlayers = async () => {
@@ -26,7 +28,7 @@ function App() {
       setPlayers(response);
     };
     getAllPlayers();
-  }, []);
+  }, [toggle]);
 
   useEffect(() => {
     const getAllComments = async () => {
@@ -54,10 +56,12 @@ function App() {
           element={<Teams teams={players.fields.teamLogo} />}
         ></Route> */}
       </Routes>
-      <div className="birds">
-        {teams.map((team) => (
-          <img src={teams} alt="team logo" />
-        ))}
+      <div className="logos">
+        <div>
+          {teams.map((team, index) => (
+            <img key={index} src={team.image} alt="team logo"></img>
+          ))}
+        </div>
       </div>
     </div>
   );
