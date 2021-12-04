@@ -54,7 +54,11 @@ function App() {
           element={<Teams teams={players.fields.teamLogo} />}
         ></Route> */}
       </Routes>
-      <img src={teams} alt="team logo" />
+      <div className="birds">
+        {teams.map((team) => (
+          <img src={teams} alt="team logo" />
+        ))}
+      </div>
     </div>
   );
 }
