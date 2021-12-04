@@ -13,11 +13,12 @@ import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 import { getPlayers, getComments } from "./services";
 import { Route, Routes } from "react-router-dom";
+import { teams } from "./assets/teams";
 
 function App() {
   const [players, setPlayers] = useState([]);
   const [comments, setComments] = useState([]);
-  const [logos, setLogos] = useState([]);
+  const [logo, setLogo] = useState([]);
 
   useEffect(() => {
     const getAllPlayers = async () => {
@@ -35,13 +36,13 @@ function App() {
     getAllComments();
   }, []);
 
-  useEffect(() => {
-    const getAllLogos = async () => {
-      const response = await getPlayers();
-      setLogos(response);
-    };
-    getAllLogos();
-  }, []);
+  // useEffect(() => {
+  //   const getAllLogos = async () => {
+  //     const response = await getPlayers();
+  //     setLogos(response);
+  //   };
+  //   getAllLogos();
+  // }, []);
 
   return (
     <div className="App">
@@ -53,6 +54,7 @@ function App() {
           element={<Teams teams={players.fields.teamLogo} />}
         ></Route> */}
       </Routes>
+      <img src={teams} alt="team logo" />
     </div>
   );
 }
