@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 import { getPlayers, getComments } from "./services";
 import { Route, Routes, Link } from "react-router-dom";
-import { teams } from "./assets/teams";
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -41,22 +40,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/players" element={<Players players={players} />}></Route>
+        <Route path="/players/:team" element={<Players players={players} />} />
+        <Route path="/player/:id" element={<Players players={players} />} />
+        <Route path="/" element={<Home />} />
       </Routes>
-      <div className="logos">
-        <div>
-          {/* <teams size={30} /> */}
-          {teams.map((team, index) => (
-            <img
-              key={index}
-              src={team.image}
-              alt="team logo"
-              height={200}
-              width={200}
-            />
-          ))}
-        </div>
-      </div>
     </div>
   );
 }
