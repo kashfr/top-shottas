@@ -12,13 +12,12 @@ import Form from "./components/Form";
 import Footer from "./components/Footer";
 import { useState, useEffect } from "react";
 import { getPlayers, getComments } from "./services";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Link } from "react-router-dom";
 import { teams } from "./assets/teams";
 
 function App() {
   const [players, setPlayers] = useState([]);
   const [comments, setComments] = useState([]);
-  const [logo, setLogo] = useState([]);
   const [toggle, setToggle] = useState(false);
   // const teams = [];
 
@@ -36,30 +35,25 @@ function App() {
       setComments(response);
     };
     getAllComments();
-  }, []);
-
-  // useEffect(() => {
-  //   const getAllLogos = async () => {
-  //     const response = await getPlayers();
-  //     setLogos(response);
-  //   };
-  //   getAllLogos();
-  // }, []);
+  }, [comments]);
 
   return (
     <div className="App">
       <Navbar />
       <Routes>
         <Route path="/players" element={<Players players={players} />}></Route>
-        {/* <Route
-          path="/"
-          element={<Teams teams={players.fields.teamLogo} />}
-        ></Route> */}
       </Routes>
       <div className="logos">
         <div>
+          {/* <teams size={30} /> */}
           {teams.map((team, index) => (
-            <img key={index} src={team.image} alt="team logo"></img>
+            <img
+              key={index}
+              src={team.image}
+              alt="team logo"
+              height={200}
+              width={200}
+            />
           ))}
         </div>
       </div>
