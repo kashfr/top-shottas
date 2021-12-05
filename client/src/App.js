@@ -41,7 +41,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/players/:team" element={<Players players={players} />} />
-        <Route path="/player/:id" element={<Players players={players} />} />
+        <Route path="/player/:id" element={<Player players={players} />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </div>

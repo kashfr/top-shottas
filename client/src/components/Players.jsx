@@ -10,15 +10,17 @@ useEffect(() => {
    return player.fields.team === team
   })
   setTeamPlayers(filteredPlayers)
-}, [team])
+}, [team, players])
   
   if (!teamPlayers) return <h1>Loading...</h1>
 
   return (
-    <div>
+    <div className="players-container">
       {
         teamPlayers.map((player) => (
-          <Link key={player.id} to={`/player/${player.id}`}>{player.fields.name}</Link>
+          <div className="players-item">
+            <Link key={player.id} to={`/player/${player.id}`}>{player.fields.name}</Link>
+          </div>
         ))
       }
     </div>

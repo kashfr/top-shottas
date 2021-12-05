@@ -10,9 +10,9 @@ export default function Home() {
            <img
              key={index}
              src={team.image}
-             alt="team logo"
-             // height={200}
-             // width={200}
+             alt={team.name}
+             height={200}
+             width={200}
            />
          </Link>
           ))}
