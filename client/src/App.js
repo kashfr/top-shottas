@@ -41,7 +41,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/players/:team" element={<Players players={players} />} />
+        <Route path="/players/years/" element={<Players players={players} />} />
         <Route path="/player/:id" element={<Player players={players} />} />
+        <Route
+          path="/player/comments/"
+          element={<Form comments={comments} />}
+        />
         <Route path="/" element={<Home />} />
       </Routes>
     </div>
