@@ -5,6 +5,11 @@ export const teams = [
       "https://content.sportslogos.net/logos/6/982/full/8147__national_basketball_association-primary-2018.png",
   },
   {
+    name: "NBA 75th Anniversary",
+    image:
+      "https://cdn.nba.com/manage/2021/08/NBA-75-secondary-logo-16-9-784x441.jpg",
+  },
+  {
     name: "St. Louis Hawks",
     image:
       "https://content.sportslogos.net/logos/6/220/full/8190_atlanta_hawks-primary-2021.png",
