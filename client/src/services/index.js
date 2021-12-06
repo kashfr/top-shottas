@@ -25,10 +25,10 @@ export const getComments = async () => {
   return response.data.records;
 };
 
-export const postComment = async (body) => {
+export const postComment = async (body, id) => {
   const response = await axios.post(
     BASE_URL_COMMENTS,
-    { fields: body },
+    { fields: { ...body, players: [id] } },
     config
   );
   return response.data;

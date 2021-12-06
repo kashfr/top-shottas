@@ -18,9 +18,13 @@ useEffect(() => {
     <div className="players-container">
       {
         teamPlayers.map((player) => (
-          <div className="players-item">
-            <Link key={player.id} to={`/player/${player.id}`}>{player.fields.name}</Link>
-          </div>
+          <Link key={player.id} to={`/player/${player.id}`}>
+            <div className="players-item">
+              <img src={player.fields.playerImage} alt={player.fields.name}/>
+            <h3>{player.fields.name}</h3>
+            <p>{player.fields.year}</p>
+            </div>
+            </Link>
         ))
       }
     </div>

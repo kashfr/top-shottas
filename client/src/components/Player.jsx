@@ -1,31 +1,47 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import Form from "./Form"
 
-export default function Player({ players }) {
+export default function Player({ players, comments, setToggle }) {
   const { id } = useParams()
 
   const player = players.find((player) => {
     return player.id === id
   })
   
+  const commentList = comments.filter((comment) => {
+    return comment.fields.players[0] === id
+  })
+
   return (
     <div>
-      <img src={player.fields.playerImage} alt={player.fields.name}/>
-      <h1>{player.fields.name}</h1>
+      <div>
+
+      <img src={player?.fields.playerImage} alt={player?.fields.name}/>
+      <h1>{player?.fields.name}</h1>
       <label>Year(s) Awarded:</label>
-      <h2>{player.fields.year}</h2>
+      <h2>{player?.fields.year}</h2>
       <label>Height:</label>
-      <h3>{player.fields.height}</h3>
+      <h3>{player?.fields.height}</h3>
       <label>Weight:</label>
-      <h3>{player.fields.weight}</h3>
+      <h3>{player?.fields.weight}</h3>
       <label>Position(s):</label>
-      <h3>{player.fields.position}</h3>
+      <h3>{player?.fields.position}</h3>
       <label>College:</label>
-      <h3>{player.fields.college}</h3>
+      <h3>{player?.fields.college}</h3>
       <label>High School:</label>
-      <h3>{player.fields.highSchool}</h3>
+      <h3>{player?.fields.highSchool}</h3>
       <label>Bio:</label>
-      <h4>{player.fields.bio}</h4>
+      <h4>{player?.fields.bio}</h4>
+      </div>
+      <Form setToggle={setToggle} id={id} />
+      {
+        commentList.map((comment) => (
+          <div>
+            <p>{comment.fields.comment}</p>
+          </div>
+        ))
+      }
     </div>
   )
 }
