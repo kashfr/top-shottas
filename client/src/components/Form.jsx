@@ -34,14 +34,14 @@ const handleSubmit = async (e) => {
   
   return (
     <form onSubmit={handleSubmit}>
-      <label>title</label>
+      <label>comment:</label>
       <input
         type='text'
         value={comment}
         name='comment'
         onChange={(e) => setComment(e.target.value)}
       />
-      <label>ingredients</label>
+      <label>username:</label>
       <input
         type='text'
         value={username}

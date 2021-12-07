@@ -1,182 +1,146 @@
 export const teams = [
   {
-    name: "NBA",
-    image:
-      "https://content.sportslogos.net/logos/6/982/full/8147__national_basketball_association-primary-2018.png",
-  },
-  {
-    name: "NBA 75th Anniversary",
-    image:
-      "https://cdn.nba.com/manage/2021/08/NBA-75-secondary-logo-16-9-784x441.jpg",
-  },
-  {
-    name: "St. Louis Hawks",
-    image:
-      "https://content.sportslogos.net/logos/6/220/full/8190_atlanta_hawks-primary-2021.png",
-  },
-  {
     name: "Atlanta Hawks",
-    image:
-      "https://content.sportslogos.net/logos/6/220/full/8190_atlanta_hawks-primary-2021.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/ATL_logo.svg",
   },
   {
     name: "Boston Celtics",
-    image:
-      "https://content.sportslogos.net/logos/6/213/full/boston_celtics_logo_primary_19977628.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/BOS_logo.svg",
   },
   {
     name: "Brooklyn Nets",
-    image:
-      "https://content.sportslogos.net/logos/6/3786/full/137_brooklyn-nets-primary-2013.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/BKN_logo.svg",
   },
   {
     name: "Charlotte Hornets",
-    image:
-      "https://content.sportslogos.net/logos/6/5120/full/1926_charlotte__hornets_-primary-2015.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/CHA_logo.svg",
   },
   {
     name: "Chicago Bulls",
-    image:
-      "https://content.sportslogos.net/logos/6/221/full/zdrycpc7mh5teihl10gko8sgf.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/CHI_logo.svg",
   },
   {
     name: "Cleveland Cavaliers",
-    image:
-      "https://content.sportslogos.net/logos/6/222/full/cleveland_cavaliers_logo_primary_20187997.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/CLE_logo.svg",
   },
   {
     name: "Dallas Mavericks",
-    image:
-      "https://content.sportslogos.net/logos/6/228/full/3463_dallas_mavericks-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/DAL_logo.svg",
   },
   {
     name: "Denver Nuggets",
-    image:
-      "https://content.sportslogos.net/logos/6/229/full/8926_denver_nuggets-primary-2019.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/den_logo.svg",
   },
   {
     name: "Detroit Pistons",
-    image:
-      "https://content.sportslogos.net/logos/6/223/full/2164_detroit_pistons-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/DET_logo.svg",
   },
   {
     name: "Golden State Warriors",
-    image:
-      "https://content.sportslogos.net/logos/6/235/full/3152_golden_state_warriors-primary-2020.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/GSW_logo.svg",
   },
   {
     name: "Houston Rockets",
-    image:
-      "https://content.sportslogos.net/logos/6/230/full/6830_houston_rockets-primary-2020.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/HOU_logo.svg",
   },
   {
     name: "Indiana Pacers",
-    image:
-      "https://content.sportslogos.net/logos/6/224/full/4812_indiana_pacers-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/IND_logo.svg",
   },
   {
     name: "Los Angeles Clippers",
-    image:
-      "https://content.sportslogos.net/logos/6/236/full/los_angeles_clippers_logo_primary_2019_sportslogosnet-3776.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/LAC_logo.svg",
   },
   {
     name: "Los Angeles Lakers",
-    image:
-      "https://content.sportslogos.net/logos/6/237/full/uig7aiht8jnpl1szbi57zzlsh.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/LAL_logo.svg",
   },
   {
     name: "Memphis Grizzlies",
-    image:
-      "https://content.sportslogos.net/logos/6/231/full/4373_memphis_grizzlies-primary-2019.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/MEM_logo.svg",
   },
   {
     name: "Miami Heat",
-    image:
-      "https://content.sportslogos.net/logos/6/214/full/burm5gh2wvjti3xhei5h16k8e.gif",
+    image: "https://www.nba.com/stats/media/img/teams/logos/MIA_logo.svg",
   },
   {
     name: "Milwaukee Bucks",
-    image:
-      "https://content.sportslogos.net/logos/6/225/full/milwaukee_bucks_logo_primary_20165763.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/MIL_logo.svg",
   },
   {
     name: "Minnesota Timberwolves",
-    image:
-      "https://content.sportslogos.net/logos/6/232/full/9669_minnesota_timberwolves-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/MIN_logo.svg",
   },
   {
     name: "New Orleans Pelicans",
-    image:
-      "https://content.sportslogos.net/logos/6/4962/full/2681_new_orleans_pelicans-primary-2014.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/NOP_logo.svg",
   },
   {
     name: "New York Knicks",
-    image:
-      "https://content.sportslogos.net/logos/6/216/full/2nn48xofg0hms8k326cqdmuis.gif",
+    image: "https://www.nba.com/stats/media/img/teams/logos/NYK_logo.svg",
   },
   {
     name: "Oklahoma City Thunder",
-    image:
-      "https://content.sportslogos.net/logos/6/2687/full/khmovcnezy06c3nm05ccn0oj2.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/OKC_logo.svg",
   },
   {
     name: "Orlando Magic",
-    image:
-      "https://content.sportslogos.net/logos/6/217/full/orlando_magic_logo_primary_20117178.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/ORL_logo.svg",
   },
   {
     name: "Philadelphia 76ers",
-    image:
-      "https://content.sportslogos.net/logos/6/218/full/7034_philadelphia_76ers-primary-2016.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/PHI_logo.svg",
   },
   {
     name: "Phoenix Suns",
-    image:
-      "https://content.sportslogos.net/logos/6/238/full/phoenix_suns_logo_primary_20143696.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/PHX_logo.svg",
   },
   {
     name: "Portland Trail Blazers",
-    image:
-      "https://content.sportslogos.net/logos/6/239/full/9725_portland_trail_blazers-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/POR_logo.svg",
   },
   {
     name: "Sacramento Kings",
-    image:
-      "https://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/SAC_logo.svg",
   },
   {
     name: "San Antonio Spurs",
-    image:
-      "https://content.sportslogos.net/logos/6/233/full/2547_san_antonio_spurs-primary-2018.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/SAS_logo.svg",
   },
   {
     name: "Toronto Raptors",
-    image:
-      "https://content.sportslogos.net/logos/6/227/full/7024_toronto_raptors-primary-2021.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/TOR_logo.svg",
   },
   {
     name: "Utah Jazz",
-    image:
-      "https://content.sportslogos.net/logos/6/234/full/6749_utah_jazz-primary-2017.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/UTA_logo.svg",
   },
   {
     name: "Washington Wizards",
+    image: "https://www.nba.com/stats/media/img/teams/logos/WAS_logo.svg",
+  },
+];
+
+export const extras = [
+  {
+    name: "NBA 75th Anniversary",
     image:
-      "https://content.sportslogos.net/logos/6/219/full/5671_washington_wizards-primary-2016.png",
+      "https://raw.githubusercontent.com/kashfr/top-shottas/6fb98168d259df3338018998f3915e3e6c80b460/NBA_75th_anniversary_logo.svg.png.svg",
   },
   {
-    name: "Philadelphia Warriors",
-    image:
-      "https://content.sportslogos.net/logos/6/235/full/3152_golden_state_warriors-primary-2020.png",
-  },
-  {
-    name: "Cincinnati Royals",
-    image:
-      "https://content.sportslogos.net/logos/6/240/full/4043_sacramento_kings-primary-2017.png",
+    name: "St. Louis Hawks",
+    image: "https://www.nba.com/stats/media/img/teams/logos/ATL_logo.svg",
   },
   {
     name: "Buffalo Braves",
-    image:
-      "https://content.sportslogos.net/logos/6/236/full/los_angeles_clippers_logo_primary_2019_sportslogosnet-3776.png",
+    image: "https://www.nba.com/stats/media/img/teams/logos/LAC_logo.svg",
+  },
+  {
+    name: "Cincinnati Royals",
+    image: "https://www.nba.com/stats/media/img/teams/logos/SAC_logo.svg",
+  },
+  {
+    name: "Philadelphia Warriors",
+    image: "https://www.nba.com/stats/media/img/teams/logos/GSW_logo.svg",
   },
 ];

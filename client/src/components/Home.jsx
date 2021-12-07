@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div>
+    <div className="logos-container">
       {teams.map((team, index) => (
          <Link to={`/players/${team.name}`}>
            <img
              key={index}
              src={team.image}
              alt={team.name}
-             height={200}
-             width={200}
+             height={150}
+             width={150}
            />
          </Link>
           ))}

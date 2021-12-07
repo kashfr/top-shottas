@@ -39,6 +39,7 @@ export default function Player({ players, comments, setToggle }) {
         commentList.map((comment) => (
           <div>
             <p>{comment.fields.comment}</p>
+            <p>{comment.fields.username}</p>
           </div>
         ))
       }
