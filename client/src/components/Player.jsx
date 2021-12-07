@@ -14,10 +14,9 @@ export default function Player({ players, comments, setToggle }) {
   })
 
   return (
-    <div>
-      <div>
-
-      <img src={player?.fields.playerImage} alt={player?.fields.name}/>
+    <div className="player-page">
+      <div className="player-details">
+      <img className="player-card" src={player?.fields.playerImage} alt={player?.fields.name}/>
       <h1>{player?.fields.name}</h1>
       <label>Year(s) Awarded:</label>
       <h2>{player?.fields.year}</h2>
@@ -37,7 +36,7 @@ export default function Player({ players, comments, setToggle }) {
       <Form setToggle={setToggle} id={id} />
       {
         commentList.map((comment) => (
-          <div>
+          <div className="comments">
             <p>{comment.fields.comment}</p>
             <p>{comment.fields.username}</p>
           </div>

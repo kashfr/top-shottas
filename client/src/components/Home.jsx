@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
-    <div className="logos-container">
+    <div className="home">
       {teams.map((team, index) => (
          <Link to={`/players/${team.name}`}>
            <img
@@ -13,6 +13,7 @@ export default function Home() {
              alt={team.name}
              height={150}
              width={150}
+             className="logos"
            />
          </Link>
           ))}

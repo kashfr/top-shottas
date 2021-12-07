@@ -1,34 +1,94 @@
-:root {
+:root,
+body {
   font-family: "HelveticaNeue-CondensedBold", sans-serif !important;
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
 }
 
-/* .parent  {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+/* // Parent */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-} */
-.div1 {
-  grid-area: 1 / 1 / 2 / 11;
-}
-.div2 {
-  grid-area: 2 / 4 / 3 / 8;
-}
-.logos-container {
-  grid-area: 4 / 2 / 9 / 10;
-}
-.div4 {
-  grid-area: 10 / 1 / 11 / 11;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  grid-template-areas:
+    "Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar"
+    ". . . Search Search Search Search . . ."
+    ". . . . . . . . . ."
+    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
+    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
+    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
+    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
+    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
+    ". . . . . . . . . ."
+    ". . . Footer Footer Footer Footer . . ."; */
 }
 
-.App {
+.navbar {
+  /* justify-self: stretch; */
+  grid-area: Navbar;
   text-align: center;
+  height: 100px;
+  width: 100%;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.search {
+  grid-area: Search;
+}
+
+.logos {
+  margin: 5px;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: space-evenly;
+  justify-items: stretch;
+  grid-template-areas:
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . .";
+  grid-area: Logos; */
+}
+
+.footer {
+  /* justify-self: stretch; */
+  grid-area: Footer;
+  height: 100px;
+  width: 100%;
+}
+
+.players-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.players-container {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.details {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  text-align: center;
+  grid-auto-columns: 1fr;
+}
+
+.player-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
