@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 
-.comment-boxes {
+.comments-section {
   /* display: flex; */
   /* align-items: flex-start; */
   /* justify-items: center; */
@@ -100,7 +100,7 @@ body {
   /* flex-direction: column; */
 }
 
-.comment-boxes .comment {
+.comment-section .comment {
   /* height: 30px; */
   width: 300px;
 }

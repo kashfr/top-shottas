@@ -18,7 +18,7 @@ const handleSubmit = async (e) => {
 }
   
   return (
-    <form className="comment-boxes" onSubmit={handleSubmit}>
+    <form className="comments-section" onSubmit={handleSubmit}>
        <label>username:</label>
       <input
         className="username"
