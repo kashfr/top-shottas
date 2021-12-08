@@ -3,13 +3,6 @@ body {
   font-family: "HelveticaNeue-CondensedBold", sans-serif !important;
 }
 
-/* // Parent */
-.player-details {
-  display: grid;
-  justify-items: center;
-  text-align: center;
-}
-
 .App {
   justify-content: center;
 }
@@ -19,35 +12,15 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1119px;
-  /* left: 100px; */
   right: 100px;
   margin-right: auto;
   margin-left: auto;
-  /* grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: stretch;
-  grid-template-areas:
-    "Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar"
-    ". . . Search Search Search Search . . ."
-    ". . . . . . . . . ."
-    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
-    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
-    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
-    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
-    ". Logos Logos Logos Logos Logos Logos Logos Logos ."
-    ". . . . . . . . . ."
-    ". . . Footer Footer Footer Footer . . ."; */
 }
 
 .navbar {
-  /* justify-self: stretch; */
-  grid-area: Navbar;
+  /* grid-area: Navbar; */
   text-align: center;
   height: 50px;
-  /* width: 100%; */
   margin: 20px;
   font-weight: bold;
 }
@@ -58,27 +31,13 @@ body {
 
 .logos {
   margin: 5px;
-  /* display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: space-evenly;
-  justify-items: stretch;
-  grid-template-areas:
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . ."
-    ". . . . . .";
-  grid-area: Logos; */
 }
 
 .footer {
-  /* justify-self: stretch; */
-  grid-area: Footer;
-  height: 100px;
-  width: 100%;
+  /* grid-area: Footer; */
+  text-align: center;
+  height: 50px;
+  margin: 20px;
 }
 
 .players-item {
@@ -93,6 +52,13 @@ body {
   /* text-align: center; */
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.player-details {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  margin: 30px;
 }
 
 .details {
@@ -125,7 +91,7 @@ body {
 }
 
 .comment-boxes .comment {
-  height: 40px;
+  height: 100px;
   width: 400px;
 }
 
@@ -135,7 +101,7 @@ body {
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -148,7 +114,7 @@ body {
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {

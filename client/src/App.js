@@ -7,6 +7,13 @@ import { useState, useEffect } from "react";
 import { getPlayers, getComments } from "./services";
 import { Route, Routes } from "react-router-dom";
 
+import ReactDOM from "react-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fab, faCheckSquare, faCoffee);
+
 function App() {
   const [players, setPlayers] = useState([]);
   const [comments, setComments] = useState([]);
