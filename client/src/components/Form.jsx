@@ -20,6 +20,7 @@ const handleSubmit = async (e) => {
     <form className="comment-boxes" onSubmit={handleSubmit}>
        <label>username:</label>
       <input
+        className="username"
         type='text'
         value={username}
         name='username'
@@ -27,6 +28,7 @@ const handleSubmit = async (e) => {
       />
       <label>comment:</label>
       <input
+        className="comment"
         type='text'
         value={comment}
         name='comment'

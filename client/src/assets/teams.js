@@ -123,11 +123,6 @@ export const teams = [
 
 export const extras = [
   {
-    name: "NBA 75th Anniversary",
-    image:
-      "https://raw.githubusercontent.com/kashfr/top-shottas/6fb98168d259df3338018998f3915e3e6c80b460/NBA_75th_anniversary_logo.svg.png.svg",
-  },
-  {
     name: "St. Louis Hawks",
     image: "https://www.nba.com/stats/media/img/teams/logos/ATL_logo.svg",
   },
@@ -142,5 +137,11 @@ export const extras = [
   {
     name: "Philadelphia Warriors",
     image: "https://www.nba.com/stats/media/img/teams/logos/GSW_logo.svg",
+  },
+];
+
+export const logo = [
+  {
+    name: "https://raw.githubusercontent.com/kashfr/top-shottas/6fb98168d259df3338018998f3915e3e6c80b460/NBA_75th_anniversary_logo.svg.png.svg",
   },
 ];

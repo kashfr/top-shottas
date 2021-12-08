@@ -36,12 +36,12 @@ export default function Player({ players, comments, setToggle }) {
       <Form setToggle={setToggle} id={id} />
       {
         commentList.map((comment) => (
-          <div className="comments">
+          <div className="comments" key={comment}>
             <label>username:
-            <p>{comment.fields.comment}</p>
+            <p>{comment.fields.username}</p>
             </label>
             <label>comment:
-            <p>{comment.fields.username}</p>
+            <p>{comment.fields.comment}</p>
             </label>
           </div>
         ))
