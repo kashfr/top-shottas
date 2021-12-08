@@ -1,15 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import React, { useState } from 'react'
 
 export default function Comments({ comments }) {
-  const [comment, setComment] = useState('')
-  const [username, setUsername] = useState('')
-//   const params = useParams()
-//   const navigate = useNavigate()
-
-// useEffect(() => {
-//   const foundComment
-// }, [])
   
   return (
     <div>

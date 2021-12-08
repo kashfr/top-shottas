@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { postComment } from '../services'
 
 export default function Comments({comments, setToggle, id}) {
@@ -12,25 +12,25 @@ const handleSubmit = async (e) => {
     username,
     comment,
   }
-    const response = await postComment(newComment, id)
+    await postComment(newComment, id)
     setToggle(prevToggle => !prevToggle)
 }
   
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="comment-boxes" onSubmit={handleSubmit}>
+       <label>username:</label>
+      <input
+        type='text'
+        value={username}
+        name='username'
+        onChange={(e) => setUsername(e.target.value)}
+      />
       <label>comment:</label>
       <input
         type='text'
         value={comment}
         name='comment'
         onChange={(e) => setComment(e.target.value)}
-      />
-      <label>username:</label>
-      <input
-        type='text'
-        value={username}
-        name='username'
-        onChange={(e) => setUsername(e.target.value)}
       />
       <button>Submit</button>
     </form>
