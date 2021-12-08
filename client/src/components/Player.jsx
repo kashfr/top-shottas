@@ -16,8 +16,8 @@ export default function Player({ players, comments, setToggle }) {
   return (
     <div className="player-page">
       <div className="player-details">
-      <label>Year(s) Awarded:</label>
-      <h2>{player?.fields.year}</h2>
+      {/* <label>Year(s) Awarded:</label>
+      <h2>{player?.fields.year}</h2> */}
       <img src={player?.fields.playerImage} alt={player?.fields.name}/>
       <h1>{player?.fields.name}</h1>
       <label>Height:</label>
@@ -37,12 +37,12 @@ export default function Player({ players, comments, setToggle }) {
       {
         commentList.map((comment) => (
           <div className="comments" key={comment}>
-            <label>username:
-            <p>{comment.fields.username}</p>
-            </label>
-            <label>comment:
-            <p>{comment.fields.comment}</p>
-            </label>
+
+            <p>{`username: ${comment.fields.username}`}</p>
+           
+        
+            <p>{`comment: ${comment.fields.comment}`}</p>
+            
           </div>
         ))
       }

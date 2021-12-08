@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { postComment } from '../services'
+import { TextField } from '@mui/material';
 
 export default function Comments({comments, setToggle, id}) {
   const [comment, setComment] = useState('')
@@ -27,9 +28,10 @@ const handleSubmit = async (e) => {
         onChange={(e) => setUsername(e.target.value)}
       />
       <label>comment:</label>
-      <input
+      <textarea
         className="comment"
-        type='text'
+        cols="50" 
+        rows="2" 
         value={comment}
         name='comment'
         onChange={(e) => setComment(e.target.value)}
