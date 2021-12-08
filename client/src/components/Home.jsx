@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className="home">
       {teams.map((team, index) => (
-         <Link to={`/players/${team.name}`}>
+         <Link key={index} to={`/players/${team.name}`}>
            <img
-             key={index}
+             
              src={team.image}
              alt={team.name}
              height={150}

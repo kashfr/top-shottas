@@ -15,7 +15,7 @@ useEffect(() => {
   if (!teamPlayers) return <h1>Loading...</h1>
 
   const laughingMemes = [
-    "https://media.giphy.com/media/O5NyCibf93upy/giphy.gif",
+    "https://media.giphy.com/media/5YF9dwGZ29rVe/giphy.gif",
     "https://media.giphy.com/media/9WqamNCgHN4s0/giphy.gif",
     "https://media.giphy.com/media/UjCwf8qULpZPa/giphy.gif",
     "https://media.giphy.com/media/U1xivDfnrqGx7AJE8P/giphy.gif",

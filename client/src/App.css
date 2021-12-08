@@ -21,7 +21,9 @@ body {
   /* grid-area: Navbar; */
   text-align: center;
   height: 50px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
 
@@ -58,7 +60,8 @@ body {
   display: grid;
   justify-items: center;
   text-align: center;
-  margin: 30px;
+  margin: 40px;
+  padding: 40px;
 }
 
 .details {
