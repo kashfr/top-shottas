@@ -19,11 +19,6 @@ useEffect(() => {
     "https://i.imgur.com/Xq18obt.gif",
     "https://i.imgur.com/k0LqU5e.gif",
     "https://i.imgur.com/hg5GbQj.gif",
-    // "https://media.giphy.com/media/5YF9dwGZ29rVe/giphy.gif",
-    // "https://media.giphy.com/media/9WqamNCgHN4s0/giphy.gif",
-    // "https://media.giphy.com/media/UjCwf8qULpZPa/giphy.gif",
-    // "https://media.giphy.com/media/U1xivDfnrqGx7AJE8P/giphy.gif",
-    // "https://media.giphy.com/media/Z36diZTBOwJLG/giphy.gif",
   ]
 
   return (

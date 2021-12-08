@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
 import { postComment } from '../services'
-import { TextField } from '@mui/material';
 
 export default function Comments({comments, setToggle, id}) {
   const [comment, setComment] = useState('')
