@@ -1,18 +1,12 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 import Players from "./components/Players";
 import Player from "./components/Player";
 import { useState, useEffect } from "react";
 import { getPlayers, getComments } from "./services";
 import { Route, Routes } from "react-router-dom";
-
-import ReactDOM from "react-dom";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
-
-library.add(fab, faCheckSquare, faCoffee);
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -52,6 +46,7 @@ function App() {
         />
         <Route path="/" element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -8,7 +8,6 @@ export default function Home() {
       {teams.map((team, index) => (
          <Link key={index} to={`/players/${team.name}`}>
            <img
-             
              src={team.image}
              alt={team.name}
              height={150}
