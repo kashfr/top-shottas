@@ -29,8 +29,6 @@ const handleSubmit = async (e) => {
       autoComplete="off"
       className="comments-section"
       onSubmit={handleSubmit}>
-      {/* <label>username:</label> */}
-    
       <TextField
           id="outlined-size-small"
           label="Username"
@@ -39,14 +37,6 @@ const handleSubmit = async (e) => {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
-      {/* <input
-        className="username"
-        type='text'
-        value={username}
-        name='username'
-        onChange={(e) => setUsername(e.target.value)}
-      /> */}
-      {/* <label>comment:</label> */}
       <TextField
           id="outlined-size-small"
           label="Comment"
@@ -55,16 +45,7 @@ const handleSubmit = async (e) => {
           value={comment}
           onChange={(e) => setComment(e.target.value)}
         />
-      {/* <textarea
-        className="comment"
-        cols="50" 
-        rows="2" 
-        value={comment}
-        name='comment'
-        onChange={(e) => setComment(e.target.value)}
-      /> */}
-      <Button variant="contained" color="primary">Submit</Button>
-      {/* <button>Submit</button> */}
+      <Button onClick={handleSubmit} variant="contained" color="primary">Submit</Button>
       </Box>
   )
 }

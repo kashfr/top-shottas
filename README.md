@@ -40,13 +40,13 @@ Airtable is returning the data for this base as follows:
             "id": "rectcV9sebTsRrxco",
             "fields": {
                 "height": "Unknown",
-                "selectedBy": " Pittsburgh Ironmen",
+                "team": " Pittsburgh Ironmen",
                 "college": "Texas Wesleyan",
                 "weight": "Unknown",
                 "year": 1946,
                 "bio": "Clifton McNeely (June 22, 1919 – December 26, 2003) was an American basketball player and coach. A 5 ft 10 in (1.78 m) forward, he played college basketball for the Texas Wesleyan Rams for three seasons and led the National Association of Intercollegiate Athletics (NAIA) in scoring during his senior season in 1946–47. McNeely was the first player ever drafted in the National Basketball Association (NBA) when he was selected by the Pittsburgh Ironmen as the first pick of the league's inaugural 1947 draft. He never played professional basketball and instead pursued a coaching career at Pampa High School in Texas. ",
                 "position": "Guard",
-                "player": "Clifton McNeely"
+                "name": "Clifton McNeely"
             },
             "createdTime": "2021-12-02T01:40:12.000Z"
         },
@@ -54,8 +54,8 @@ Airtable is returning the data for this base as follows:
             "id": "recwQBySenK3Ap7Tb",
             "fields": {
                 "year": 1984,
-                "selectedBy": "Chicago Bulls",
-                "player": "Michael Jordan"
+                "team": "Chicago Bulls",
+                "name": "Michael Jordan"
             },
             "createdTime": "2021-12-02T01:40:12.000Z"
         }
@@ -86,33 +86,33 @@ Airtable is returning the data for this base as follows:
 
 ## Project Schedule
 
-| Day      | Deliverable                         | Status  |
-| -------- | ----------------------------------- | ------- |
-| Dec 2-11 | Proposal Approval / Airtable Setup  | Pending |
-| Dec 03   | Component Creation / Get, Set, Post | Pending |
-| Dec 06   | Dec. 03 cont'd / CSS Components     | Pending |
-| Dec 07   | CSS Components cont'd / MVP         | Pending |
-| Dec 08   | Advanced CSS / PostMVP              | Pending |
-| Dec 09   | Presentations                       | Pending |
+| Day      | Deliverable                         | Status   |
+| -------- | ----------------------------------- | -------- |
+| Dec 2-11 | Proposal Approval / Airtable Setup  | Complete |
+| Dec 03   | Component Creation / Get, Set, Post | Complete |
+| Dec 06   | Dec. 03 cont'd / CSS Components     | Complete |
+| Dec 07   | CSS Components cont'd / MVP         | Complete |
+| Dec 08   | Advanced CSS / PostMVP              | Pending  |
+| Dec 09   | Presentations                       | Pending  |
 
 ## Timeframes
 
 | Component                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------ | :------: | :------------: | :-----------: | :---------: |
-| Proposal                 |    H     |      2hrs      |     2hrs      |    -hrs     |
-| Airtable setup           |    H     |      5hrs      |      1hr      |    -hrs     |
-| Clickable icons          |    H     |      1hrs      |      1hr      |    -hrs     |
-| Data population / Home   |    H     |      3hrs      |     3hrs      |    -hrs     |
-| Data population / Team   |    H     |      3hrs      |     2hrs      |    -hrs     |
-| Data population / Player |    H     |      3hrs      |     2hrs      |    -hrs     |
-| Comments section         |    H     |      3hrs      |     2hrs      |    -hrs     |
-| Data creation / Home     |    H     |      3hrs      |     3hrs      |    -hrs     |
-| Data creation / Team     |    H     |      3hrs      |      1hr      |    -hrs     |
-| Data creation / Player   |    H     |      3hrs      |      1hr      |    -hrs     |
-| Component CSS pg 1       |    H     |      4hrs      |     4hrs      |    -hrs     |
-| Component CSS pg 2       |    H     |      4hrs      |     4hrs      |    -hrs     |
-| Component CSS pg 3       |    H     |      4hrs      |     4hrs      |    -hrs     |
-| Total                    |    H     |     41hrs      |     30hrs     |    -hrs     |
+| Proposal                 |    H     |      2hrs      |     2hrs      |    2hrs     |
+| Airtable setup           |    H     |      5hrs      |      1hr      |    5hrs     |
+| Clickable icons          |    H     |      1hrs      |      1hr      |    1hrs     |
+| Data population / Home   |    H     |      3hrs      |     3hrs      |    4hrs     |
+| Data population / Team   |    H     |      3hrs      |     2hrs      |    4hrs     |
+| Data population / Player |    H     |      3hrs      |     2hrs      |    4hrs     |
+| Comments section         |    H     |      3hrs      |     2hrs      |    3hrs     |
+| Data creation / Home     |    H     |      3hrs      |     3hrs      |    4hrs     |
+| Data creation / Team     |    H     |      3hrs      |      1hr      |    4hrs     |
+| Data creation / Player   |    H     |      3hrs      |      1hr      |    4hrs     |
+| Component CSS pg 1       |    H     |      4hrs      |     4hrs      |    5hrs     |
+| Component CSS pg 2       |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Component CSS pg 3       |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Total                    |    H     |     41hrs      |     30hrs     |    48hrs    |
 
 ## SWOT Analysis
 
