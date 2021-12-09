@@ -44,9 +44,17 @@ body {
 .footer {
   display: flex;
   justify-content: center;
+  /* align-items: flex-end; */
   text-align: center;
-  height: 40px;
-  margin: 20px;
+  /* height: 40px; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+
+  /* min-height: 100%;
+  flex-direction: row; */
+
+  margin-top: calc(5% + 60px);
+  bottom: 0;
 }
 
 .players-item {
@@ -79,11 +87,11 @@ body {
   grid-auto-columns: 1fr;
 }
 
-.player-page {
-  /* display: grid;
+/* .player-page {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center; */
-}
+  justify-items: center;
+} */
 
 .comments {
   display: grid;
